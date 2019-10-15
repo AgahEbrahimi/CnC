@@ -1,0 +1,8 @@
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\SimpleKeyLogging\bin\Debug\SimpleKeyLogging.exe.config
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\SimpleKeyLogging\bin\Debug\SimpleKeyLogging.exe
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\SimpleKeyLogging\bin\Debug\SimpleKeyLogging.pdb
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\SimpleKeyLogging\obj\Debug\SimpleKeyLogging.exe
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\SimpleKeyLogging\obj\Debug\SimpleKeyLogging.pdb
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\SimpleKeyLogging\obj\Debug\SimpleKeyLogging.csprojResolveAssemblyReference.cache
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\SimpleKeyLogging\bin\Debug\SimpleKeyLogging.exe.CodeAnalysisLog.xml
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\SimpleKeyLogging\bin\Debug\SimpleKeyLogging.exe.lastcodeanalysissucceeded

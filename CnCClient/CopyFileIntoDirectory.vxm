@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<vTask>
+<step>
+	<action>Read File Line</action>
+	<value1>{filepath}\SearchForFile.txt</value1>
+	<value2>1</value2>
+	<output value="%x">Variable</output>
+	<onfail>Ignore/Continue</onfail>
+</step>
+<step>
+	<action>Find File</action>
+	<options>First Match</options>
+	<value1>%x</value1>
+	<value2>C:\Users\{username}\</value2>
+	<output value="%y">Variable</output>
+	<onfail>Ignore/Continue</onfail>
+</step>
+<step>
+	<action>Copy File</action>
+	<text>{filepath}\</text>
+	<value1>%y</value1>
+	<onfail>Ignore/Continue</onfail>
+</step>
+<step>
+	<action>Write/Create File</action>
+	<text>done</text>
+	<options>Erase</options>
+	<value1>{filepath}\DoneWithFileSearch.txt</value1>
+	<value2>0</value2>
+</step>
+</vTask>

@@ -1,0 +1,9 @@
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\GettingFile\bin\Debug\GettingFile.exe.config
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\GettingFile\bin\Debug\GettingFile.exe
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\GettingFile\bin\Debug\GettingFile.pdb
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\GettingFile\obj\Debug\GettingFile.csprojResolveAssemblyReference.cache
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\GettingFile\obj\Debug\GettingFile.FetchFile.resources
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\GettingFile\obj\Debug\GettingFile.Properties.Resources.resources
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\GettingFile\obj\Debug\GettingFile.csproj.GenerateResource.Cache
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\GettingFile\obj\Debug\GettingFile.exe
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\GettingFile\obj\Debug\GettingFile.pdb

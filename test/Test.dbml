@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="CnC" Class="TestDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=agah.cmteobol0npj.us-west-2.rds.amazonaws.com,1433;Initial Catalog=CnC;Persist Security Info=True;User ID=root" SettingsObjectName="test.Properties.Settings" SettingsPropertyName="CnCConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CaseMessages" Member="CaseMessages">
+    <Type Name="CaseMessage">
+      <Column Name="Field" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Operator" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Value" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Message" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CloseActionUrl" Member="CloseActionUrls">
+    <Type Name="CloseActionUrl">
+      <Column Name="URL" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="UserID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PerformAction" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DemandedFiles" Member="DemandedFiles">
+    <Type Name="DemandedFile">
+      <Column Name="UserIP" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UserID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FileName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Availability" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DoneOrNot" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Date" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FileType" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Demand_Delete" Member="Demand_Deletes">
+    <Type Name="Demand_Delete">
+      <Column Name="FileName" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="FileType" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="UserID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UserIP" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="date" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DoneOrNot" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DemandProcces" Member="DemandProcces">
+    <Type Name="DemandProcce">
+      <Column Name="[Program/Document]" Member="Program_Document" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Field" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Operator" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Value" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Date" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KeyLoggingDemand" Member="KeyLoggingDemands">
+    <Type Name="KeyLoggingDemand">
+      <Column Name="UserID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="EndDate" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MouseClickDemands" Member="MouseClickDemands">
+    <Type Name="MouseClickDemand">
+      <Column Name="Action" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Button" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="presstype" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="X" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Y" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DateStart" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UserID" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DateEnd" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Field" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Operator" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Value" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MouseMoveDemand" Member="MouseMoveDemands">
+    <Type Name="MouseMoveDemand">
+      <Column Name="X" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Y" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="EndDate" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UserID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Field" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Operator" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Value" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OneTimeMessage" Member="OneTimeMessages">
+    <Type Name="OneTimeMessage">
+      <Column Name="UserID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Message" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Displayed" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Screen_Shots" Member="Screen_Shots">
+    <Type Name="Screen_Shot">
+      <Column Name="Screenshot" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Time" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Done" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="UserId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Date" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SeeUrlsOpened" Member="SeeUrlsOpeneds">
+    <Type Name="SeeUrlsOpened">
+      <Column Name="Url" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="[Date-Time]" Member="Date_Time" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="UserID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ScreenShot_Action" Member="ScreenShot_Actions">
+    <Type Name="ScreenShot_Action">
+      <Column Name="[From]" Member="From" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Until" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Frameinsecond" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Date" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ServerDetails" Member="ServerDetails">
+    <Type Name="ServerDetail">
+      <Column Name="Drive" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="AvailableSpace" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="TotalFreeSpace" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="TotalSize" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Streaming_Command" Member="Streaming_Commands">
+    <Type Name="Streaming_Command">
+      <Column Name="[User]" Member="User" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Date" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Port" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Done" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Streaming_IPs" Member="Streaming_IPs">
+    <Type Name="Streaming_IP">
+      <Column Name="[User]" Member="User" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Port" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UserType" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IP" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="AreOn" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TypingDemand" Member="TypingDemands">
+    <Type Name="TypingDemand">
+      <Column Name="Text" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Operator" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Field" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Value" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UserID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Warning_ScreenShot" Member="Warning_ScreenShots">
+    <Type Name="Warning_ScreenShot">
+      <Column Name="StatementWay" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StatementAction" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="StatementItself" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DateSubmited" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UserIDs" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FrameInSecond" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Windows_Activities" Member="Windows_Activities">
+    <Type Name="Windows_Activity">
+      <Column Name="UserID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Activity" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Operator" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Value" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Field" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

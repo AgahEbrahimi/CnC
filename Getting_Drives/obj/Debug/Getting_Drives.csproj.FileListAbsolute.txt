@@ -1,0 +1,9 @@
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\Getting_Drives\bin\Debug\Getting_Drives.exe.config
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\Getting_Drives\bin\Debug\Getting_Drives.exe
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\Getting_Drives\bin\Debug\Getting_Drives.pdb
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\Getting_Drives\obj\Debug\Getting_Drives.Form1.resources
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\Getting_Drives\obj\Debug\Getting_Drives.Properties.Resources.resources
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\Getting_Drives\obj\Debug\Getting_Drives.csproj.GenerateResource.Cache
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\Getting_Drives\obj\Debug\Getting_Drives.exe
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\Getting_Drives\obj\Debug\Getting_Drives.pdb
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\Getting_Drives\obj\Debug\Getting_Drives.csprojResolveAssemblyReference.cache

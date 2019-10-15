@@ -1,0 +1,16 @@
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\CnCClient\obj\Debug\CnCClient.Properties.Resources.resources
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\CnCClient\obj\Debug\CnCClient.csproj.GenerateResource.Cache
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\CnCClient\bin\Debug\lsass.exe.config
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\CnCClient\bin\Debug\lsass.exe
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\CnCClient\bin\Debug\lsass.pdb
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\CnCClient\obj\Debug\lsass.exe
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\CnCClient\obj\Debug\lsass.pdb
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\CnCClient\obj\Debug\CnCClient.csprojResolveAssemblyReference.cache
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\CnCClient\obj\Debug\CnCClient.MainPlatform.resources
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\CnCClient\obj\Debug\CnCClient.TakeAndSendS.resources
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\CnCClient\obj\Debug\CnCClient.MainPlatform2ndPart.resources
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\CnCClient\obj\Debug\CnCClient.CheckForStream.resources
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\CnCClient\obj\Debug\CnCClient.DeleteFile.resources
+C:\Users\agah\Desktop\Memories & Programming\Programming\CnC_BackUp\CnC_12-8-2016\CnCClient\bin\Debug\lsass.exe.config
+C:\Users\agah\Desktop\Memories & Programming\Programming\CnC_BackUp\CnC_12-8-2016\CnCClient\obj\Debug\lsass.exe
+C:\Users\agah\Desktop\Memories & Programming\Programming\CnC_BackUp\CnC_12-8-2016\CnCClient\obj\Debug\lsass.pdb

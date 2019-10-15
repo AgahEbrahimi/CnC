@@ -1,0 +1,8 @@
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\test\bin\Debug\test.exe.config
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\test\bin\Debug\test.exe
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\test\bin\Debug\test.pdb
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\test\obj\Debug\test.Form1.resources
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\test\obj\Debug\test.Properties.Resources.resources
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\test\obj\Debug\test.csproj.GenerateResource.Cache
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\test\obj\Debug\test.exe
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\test\obj\Debug\test.pdb

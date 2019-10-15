@@ -1,0 +1,9 @@
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\Streaming_Client\bin\Debug\Streaming_Client.exe.config
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\Streaming_Client\bin\Debug\Streaming_Client.exe
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\Streaming_Client\bin\Debug\Streaming_Client.pdb
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\Streaming_Client\obj\Debug\Streaming_Client.Properties.Resources.resources
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\Streaming_Client\obj\Debug\Streaming_Client.Streaming.resources
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\Streaming_Client\obj\Debug\Streaming_Client.csproj.GenerateResource.Cache
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\Streaming_Client\obj\Debug\Streaming_Client.exe
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\Streaming_Client\obj\Debug\Streaming_Client.pdb
+C:\Users\agah\Documents\Visual Studio 2015\Projects\CnC\Streaming_Client\obj\Debug\Streaming_Client.csprojResolveAssemblyReference.cache

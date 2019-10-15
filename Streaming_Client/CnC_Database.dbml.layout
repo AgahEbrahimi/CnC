@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="CnC_Database">
+  <DataContextMoniker Name="/CnC_DatabaseDataContext" />
+  <nestedChildShapes>
+    <classShape Id="673ee8f9-b365-4e97-9447-82a3310f215f" absoluteBounds="0.75, 0.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/CnC_DatabaseDataContext/Streaming_IP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f7ffc602-9c2c-4644-b50f-e4193bd0eddf" absoluteBounds="0.765, 1.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="854fc24f-6a92-4130-bb94-fd4e3dc6eb65" absoluteBounds="3.75, 0.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/CnC_DatabaseDataContext/Streaming_Command" />
+      <nestedChildShapes>
+        <elementListCompartment Id="648aae52-bd93-4edb-8460-e01259b52a7a" absoluteBounds="3.765, 1.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
